@@ -6,8 +6,11 @@
   position: fixed;
   z-index: 40;
   top: 50%;
-  left: 1rem;
+  left: 0.5rem;
   transform: translateY(-50%);
+  background-color: rgba(5, 47, 71, 0.85);
+  border-radius: 14px;
+  padding: 1rem;
 }
 
 .chapter-nav ol {
@@ -23,7 +26,7 @@
   grid-template-columns: 2rem auto;
   gap: 0.65rem;
   align-items: baseline;
-  color: var(--muted);
+  color: #aab8c1;
   font-size: 0.68rem;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -43,7 +46,7 @@
 .chapter-link:hover,
 .chapter-link:focus-visible,
 .chapter-link.active {
-  color: var(--text);
+  color: #edf3f6;
 }
 
 .chapter-link.active {
@@ -521,7 +524,7 @@
    Responsive and reduced motion
 -------------------------------------------------- */
 
-@media (max-width: 1150px) {
+@media (max-width: 1780px) {
   .chapter-nav {
     display: none;
   }
