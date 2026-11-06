@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ninthburn.github.io/adaptive-web-interface/sitemap.xml
